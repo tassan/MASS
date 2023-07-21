@@ -1,6 +1,8 @@
 # MASS
 
  _aka_ Mongo Atlas Search Sharp
+
+[![Build Status](https://github.com/tassan/MASS/actions/workflows/dotnet.yml/badge.svg)](https://github.com/tassan/MASS/actions/workflows/dotnet.yml/badge.svg)
  
 # Introduction
 
