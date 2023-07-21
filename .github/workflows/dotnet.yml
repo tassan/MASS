@@ -27,6 +27,6 @@ jobs:
     - name: Test
       run: dotnet test --no-build --configuration Release --verbosity normal
     - name: Prep Packages
-      run: dotnet nuget add source --username tassan --password ${{ secrets.NUGET_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/tassan/index.json"
+      run: dotnet nuget add source --username tassan --password ${{ secrets.PAT }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/tassan/index.json"
     - name: Publish to GitHub packages 
-      run: dotnet nuget push src/Mass/bin/Release/*.nupkg --api-key ${{ secrets.NUGET_TOKEN }}  --source "github"
+      run: dotnet nuget push src/Mass/bin/Release/*.nupkg --api-key ${{ secrets.PAT }}  --source "github"
