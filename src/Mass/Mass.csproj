@@ -8,8 +8,6 @@
         <Authors>Flávio Tassan</Authors>
         <Description>This is a .NET Core library for working with MongoDB Atlas Search. It is a wrapper around the MongoDB .NET Driver.</Description>
         <PackageProjectUrl>https://github.com/tassan/MASS</PackageProjectUrl>
-        <PackageLicenseUrl></PackageLicenseUrl>
-        <PackageIcon>weight-icon.png</PackageIcon>
         <RepositoryUrl>https://github.com/tassan/MASS</RepositoryUrl>
         <PackageTags>Mongo, Atlas, Search, Wrapper</PackageTags>
         <PackageReadmeFile>README.MD</PackageReadmeFile>
@@ -26,14 +24,12 @@
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.1" />
       <PackageReference Include="MongoDB.Driver" Version="2.20.0" />
     </ItemGroup>
 
     <ItemGroup>
-      <None Update="weight-icon.png">
-        <Pack>True</Pack>
-        <PackagePath></PackagePath>
-      </None>
+      <Folder Include="Models\" />
     </ItemGroup>
 
 </Project>
