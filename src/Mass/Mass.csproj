@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>Flávio Tassan</Authors>
+        <Description>This is a .NET Core library for working with MongoDB Atlas Search. It is a wrapper around the MongoDB .NET Driver.</Description>
+        <PackageProjectUrl>https://github.com/tassan/MASS</PackageProjectUrl>
+        <PackageLicenseUrl></PackageLicenseUrl>
+        <PackageIcon>weight-icon.png</PackageIcon>
+        <RepositoryUrl>https://github.com/tassan/MASS</RepositoryUrl>
+        <PackageTags>Mongo, Atlas, Search, Wrapper</PackageTags>
+        <PackageReadmeFile>README.MD</PackageReadmeFile>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+        <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="..\..\README.MD">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MongoDB.Driver" Version="2.20.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="weight-icon.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+      </None>
+    </ItemGroup>
+
+</Project>
