@@ -29,4 +29,4 @@ jobs:
     - name: Prep Packages
       run: dotnet nuget add source --username tassan --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/tassan/index.json"
     - name: Publish to GitHub packages 
-      run: dotnet nuget push MASS/src/Mass/bin/Release/*.nupkg --api-key ${{ secrets.GITHUB_TOKEN }}  --source "github"
+      run: dotnet nuget push MASS\src\Mass\bin\Release\*.nupkg --api-key ${{ secrets.GITHUB_TOKEN }}  --source "github"
