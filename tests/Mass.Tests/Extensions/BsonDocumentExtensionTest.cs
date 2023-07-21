@@ -1,4 +1,5 @@
 ﻿using Mass.Extensions;
+using Mass.Generator;
 using MongoDB.Bson;
 
 namespace Mass.Tests.Extensions;
@@ -11,7 +12,8 @@ public class BsonDocumentExtensionTest
 
     public BsonDocumentExtensionTest()
     {
-        _document = new BsonDocument();
+        var generator = new SearchGenerator();
+        _document = generator.Search();
     }
 
     [Fact]
@@ -27,24 +29,9 @@ public class BsonDocumentExtensionTest
         _document.Index(index);
 
         // Assert
-        Assert.Equal(index, _document["index"].AsString);
+        Assert.Equal(index, _document["$search"]["index"].AsString);
     }
 
-    [Fact]
-    [Trait("Category", "Unit")]
-    [Trait("Category", "Extensions")]
-    [Trait("Extensions", "Index")]
-    public void Index_ShouldAddIndexToSearchDocument()
-    {
-        var search = new BsonDocument("$search", new BsonDocument());
-
-        var index = "default";
-
-        search.Index(index);
-
-        Assert.Equal(index, search["index"].AsString);
-    }
-    
     [Fact]
     [Trait("Category", "Unit")]
     [Trait("Category", "Extensions")]

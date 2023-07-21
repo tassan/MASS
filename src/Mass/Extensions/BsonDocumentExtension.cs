@@ -11,7 +11,18 @@ public static class BsonDocumentExtension
     /// <param name="name">Index Name</param>
     public static void Index(this BsonDocument doc, string name)
     {
-        doc.Add("index", name);
+        try
+        {
+            if (doc["$search"] is null)
+                throw new Exception("You must call Search() before calling Index()");
+            
+            doc["$search"].AsBsonDocument.Add("index", name);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
     }
 
     /// <summary>
@@ -82,7 +93,7 @@ public static class BsonDocumentExtension
                 throw new ArgumentOutOfRangeException(nameof(fuzzy), "Fuzzy value must be either 1 or 2");
 
             doc["text"].AsBsonDocument.Add("fuzzy", new BsonDocument("maxEdits", fuzzy));
-            
+
             return doc;
         }
         catch (KeyNotFoundException e)
@@ -115,6 +126,28 @@ public static class BsonDocumentExtension
         catch (KeyNotFoundException e)
         {
             throw new KeyNotFoundException("You must call Path() before calling Highlight()", e);
+        }
+    }
+
+    /// <summary>
+    /// Add Meta field to the specified BsonDocument inside Project
+    /// </summary>
+    /// <param name="doc"></param>
+    /// <param name="name"></param>
+    /// <param name="metaValue"></param>
+    /// <returns></returns>
+    public static BsonDocument Meta(this BsonDocument doc, string name, string metaValue)
+    {
+        try
+        {
+            doc.Add(name, new BsonDocument { { "$meta", metaValue } });
+
+            return doc;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
         }
     }
 }

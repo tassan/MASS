@@ -13,18 +13,26 @@ namespace Mass.Generator
 {
     public class SearchGenerator
     {
-        public BsonDocument[] BuildSearch(string index, string searchTerm, IOptions<SearchOptions>? options = null)
+        public BsonArray BuildSearch(string index, string searchTerm, IOptions<SearchOptions>? options = null)
         {
-            var search = new BsonDocument("$search", new BsonDocument());
-
+            var search = Search();
             search.Index(index);
-
-            var pipeline = new[]
+            
+            var pipeline = new BsonArray
             {
                 search
             };
 
             return pipeline;
+        }
+
+        /// <summary>
+        ///  Add Search field to the specified BsonDocument
+        /// </summary>
+        /// <returns></returns>
+        public BsonDocument Search()
+        {
+            return new("$search", new BsonDocument());
         }
     }
 }
