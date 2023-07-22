@@ -1,0 +1,32 @@
+# This workflow will build a .NET project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
+
+name: Publishing Package
+
+on:
+  push:
+    branches: [ "release/*" ]
+  pull_request:
+    branches: [ "release/*" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 6.0.x
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --no-restore
+    - name: Test
+      run: dotnet test --no-build --verbosity normal
+    - name: Prep Packages
+      run: dotnet nuget add source --username tassan --password ${{ secrets.PAT }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/tassan/index.json"
+    - name: Publish to GitHub packages 
+      run: dotnet nuget push src/Mass/bin/Release/*.nupkg --api-key ${{ secrets.PAT }}  --source "github"
