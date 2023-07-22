@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession>
+  <Summary numSequencePoints="138" visitedSequencePoints="96" numBranchPoints="26" visitedBranchPoints="15" sequenceCoverage="69.56" branchCoverage="57.69" maxCyclomaticComplexity="37" minCyclomaticComplexity="37" visitedClasses="3" numClasses="4" visitedMethods="12" numMethods="19" />
+  <Modules>
+    <Module hash="822D52FB-46D7-4230-84AC-F08DEFB34D15">
+      <ModulePath>Mass.dll</ModulePath>
+      <ModuleTime>2023-07-22T08:40:15</ModuleTime>
+      <ModuleName>Mass</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Users\ftass\RiderProjects\MASS\src\Mass\Models\SearchOptions.cs" />
+        <File uid="2" fullPath="C:\Users\ftass\RiderProjects\MASS\src\Mass\Generator\SearchGenerator.cs" />
+        <File uid="3" fullPath="C:\Users\ftass\RiderProjects\MASS\src\Mass\Extensions\BsonDocumentArrayExtension.cs" />
+        <File uid="4" fullPath="C:\Users\ftass\RiderProjects\MASS\src\Mass\Extensions\BsonDocumentExtension.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="6" />
+          <FullName>Mass.Models.SearchOptions</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 Mass.Models.SearchOptions::get_Limit()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="8" ordinal="0" sl="8" sc="1" el="8" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="8" ec="1" el="8" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 Mass.Models.SearchOptions::get_Skip()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="9" ordinal="0" sl="9" sc="1" el="9" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="9" ec="1" el="9" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String[] Mass.Models.SearchOptions::get_Fields()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="10" ordinal="0" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="10" ec="1" el="10" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 Mass.Models.SearchOptions::get_Fuzzy()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="12" ordinal="0" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="12" ec="1" el="12" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String[] Mass.Models.SearchOptions::get_Highlight()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="13" ordinal="0" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="13" ec="1" el="13" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String[] Mass.Models.SearchOptions::BuildHighlight()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="16" ordinal="0" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="17" ordinal="1" sl="17" sc="1" el="17" ec="2" bec="2" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="18" ordinal="2" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="17" ordinal="0" path="0" offset="2" offsetend="4" sl="17" fileid="1" />
+                <BranchPoint vc="0" uspid="17" ordinal="1" path="1" offset="2" offsetend="10" sl="17" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="16" ec="1" el="18" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="12" visitedSequencePoints="12" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>Mass.Generator.SearchGenerator</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>MongoDB.Bson.BsonArray Mass.Generator.SearchGenerator::BuildSearch(System.String,System.String,Microsoft.Extensions.Options.IOptions`1&lt;Mass.Models.SearchOptions&gt;)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="8" uspid="17" ordinal="0" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="8" uspid="18" ordinal="1" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="8" uspid="19" ordinal="2" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="8" uspid="21" ordinal="3" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="8" uspid="22" ordinal="4" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="8" uspid="23" ordinal="5" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="8" uspid="24" ordinal="6" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="8" uspid="26" ordinal="7" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="8" uspid="27" ordinal="8" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="9" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="17" ec="1" el="27" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>MongoDB.Bson.BsonDocument Mass.Generator.SearchGenerator::Search()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="22" uspid="34" ordinal="0" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="22" uspid="35" ordinal="1" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="22" uspid="36" ordinal="2" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="34" ec="1" el="36" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="52" visitedSequencePoints="27" numBranchPoints="12" visitedBranchPoints="5" sequenceCoverage="51.92" branchCoverage="41.66" maxCyclomaticComplexity="4" minCyclomaticComplexity="2" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="4" />
+          <FullName>Mass.Extensions.BsonDocumentArrayExtension</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="75" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="16" visitedSequencePoints="12" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="75" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>MongoDB.Bson.BsonArray Mass.Extensions.BsonDocumentArrayExtension::Project(MongoDB.Bson.BsonArray,System.String[])</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="15" ordinal="0" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" uspid="17" ordinal="1" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" uspid="18" ordinal="2" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" uspid="19" ordinal="3" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="21" uspid="21" ordinal="4" sl="21" sc="1" el="21" ec="2" bec="2" bev="2" fileid="3" />
+                <SequencePoint vc="6" uspid="22" ordinal="5" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="6" uspid="23" ordinal="6" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="6" uspid="24" ordinal="7" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" uspid="26" ordinal="8" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" uspid="28" ordinal="9" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" uspid="30" ordinal="10" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="32" ordinal="11" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="33" ordinal="12" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="34" ordinal="13" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="35" ordinal="14" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" uspid="37" ordinal="15" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="6" uspid="21" ordinal="1" path="1" offset="61" offsetend="31" sl="21" fileid="3" />
+                <BranchPoint vc="3" uspid="21" ordinal="0" path="0" offset="61" offsetend="63" sl="21" fileid="3" />
+              </BranchPoints>
+              <MethodPoint vc="12" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="15" ec="1" el="37" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="4" nPathComplexity="4" sequenceCoverage="64.28" branchCoverage="50" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="14" visitedSequencePoints="9" numBranchPoints="4" visitedBranchPoints="2" sequenceCoverage="64.28" branchCoverage="50" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>MongoDB.Bson.BsonArray Mass.Extensions.BsonDocumentArrayExtension::Meta(MongoDB.Bson.BsonArray,System.String,System.String)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="40" ordinal="0" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="2" uspid="42" ordinal="1" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="2" uspid="43" ordinal="2" sl="43" sc="1" el="43" ec="2" bec="4" bev="2" fileid="3" />
+                <SequencePoint vc="0" uspid="44" ordinal="3" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="46" ordinal="4" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="48" ordinal="5" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="50" ordinal="6" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="51" ordinal="7" sl="51" sc="1" el="51" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="52" ordinal="8" sl="52" sc="1" el="52" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="54" ordinal="9" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="55" ordinal="10" sl="55" sc="1" el="55" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="56" ordinal="11" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="57" ordinal="12" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="59" ordinal="13" sl="59" sc="1" el="59" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="2" uspid="43" ordinal="0" path="0" offset="15" offsetend="17" sl="43" fileid="3" />
+                <BranchPoint vc="0" uspid="43" ordinal="1" path="1" offset="15" offsetend="33" sl="43" fileid="3" />
+                <BranchPoint vc="0" uspid="43" ordinal="2" path="0" offset="36" offsetend="38" sl="43" fileid="3" />
+                <BranchPoint vc="1" uspid="43" ordinal="3" path="1" offset="36" offsetend="49" sl="43" fileid="3" />
+              </BranchPoints>
+              <MethodPoint vc="9" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="40" ec="1" el="59" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="54.54" branchCoverage="50" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="11" visitedSequencePoints="6" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="54.54" branchCoverage="50" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>MongoDB.Bson.BsonArray Mass.Extensions.BsonDocumentArrayExtension::Score(MongoDB.Bson.BsonArray,System.String)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="68" ordinal="0" sl="68" sc="1" el="68" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="70" ordinal="1" sl="70" sc="1" el="70" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="71" ordinal="2" sl="71" sc="1" el="71" ec="2" bec="2" bev="1" fileid="3" />
+                <SequencePoint vc="0" uspid="72" ordinal="3" sl="72" sc="1" el="72" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="74" ordinal="4" sl="74" sc="1" el="74" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="76" ordinal="5" sl="76" sc="1" el="76" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="78" ordinal="6" sl="78" sc="1" el="78" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="79" ordinal="7" sl="79" sc="1" el="79" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="80" ordinal="8" sl="80" sc="1" el="80" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="81" ordinal="9" sl="81" sc="1" el="81" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="83" ordinal="10" sl="83" sc="1" el="83" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="71" ordinal="0" path="0" offset="28" offsetend="30" sl="71" fileid="3" />
+                <BranchPoint vc="1" uspid="71" ordinal="1" path="1" offset="28" offsetend="41" sl="71" fileid="3" />
+              </BranchPoints>
+              <MethodPoint vc="6" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="68" ec="1" el="83" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="4" nPathComplexity="4" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="11" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>MongoDB.Bson.BsonArray Mass.Extensions.BsonDocumentArrayExtension::Highlights(MongoDB.Bson.BsonArray,System.String)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="92" ordinal="0" sl="92" sc="1" el="92" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="94" ordinal="1" sl="94" sc="1" el="94" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="95" ordinal="2" sl="95" sc="1" el="95" ec="2" bec="4" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="96" ordinal="3" sl="96" sc="1" el="96" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="98" ordinal="4" sl="98" sc="1" el="98" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="100" ordinal="5" sl="100" sc="1" el="100" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="102" ordinal="6" sl="102" sc="1" el="102" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="103" ordinal="7" sl="103" sc="1" el="103" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="104" ordinal="8" sl="104" sc="1" el="104" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="105" ordinal="9" sl="105" sc="1" el="105" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="107" ordinal="10" sl="107" sc="1" el="107" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="95" ordinal="0" path="0" offset="15" offsetend="17" sl="95" fileid="3" />
+                <BranchPoint vc="0" uspid="95" ordinal="1" path="1" offset="15" offsetend="33" sl="95" fileid="3" />
+                <BranchPoint vc="0" uspid="95" ordinal="2" path="0" offset="36" offsetend="38" sl="95" fileid="3" />
+                <BranchPoint vc="0" uspid="95" ordinal="3" path="1" offset="36" offsetend="49" sl="95" fileid="3" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="92" ec="1" el="107" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="66" visitedSequencePoints="57" numBranchPoints="12" visitedBranchPoints="10" sequenceCoverage="86.36" branchCoverage="83.33" maxCyclomaticComplexity="6" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="7" numMethods="7" />
+          <FullName>Mass.Extensions.BsonDocumentExtension</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="54.54" branchCoverage="50" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="11" visitedSequencePoints="6" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="54.54" branchCoverage="50" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Mass.Extensions.BsonDocumentExtension::Index(MongoDB.Bson.BsonDocument,System.String)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="9" uspid="13" ordinal="0" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="9" uspid="15" ordinal="1" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="9" uspid="16" ordinal="2" sl="16" sc="1" el="16" ec="2" bec="2" bev="1" fileid="4" />
+                <SequencePoint vc="0" uspid="17" ordinal="3" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="9" uspid="19" ordinal="4" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="9" uspid="20" ordinal="5" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="21" ordinal="6" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="22" ordinal="7" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="23" ordinal="8" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="24" ordinal="9" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="9" uspid="26" ordinal="10" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="16" ordinal="0" path="0" offset="18" offsetend="20" sl="16" fileid="4" />
+                <BranchPoint vc="9" uspid="16" ordinal="1" path="1" offset="18" offsetend="31" sl="16" fileid="4" />
+              </BranchPoints>
+              <MethodPoint vc="6" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="13" ec="1" el="26" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>MongoDB.Bson.BsonDocument Mass.Extensions.BsonDocumentExtension::Text(MongoDB.Bson.BsonDocument,System.Boolean)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="10" uspid="34" ordinal="0" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="10" uspid="35" ordinal="1" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="10" uspid="36" ordinal="2" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="10" uspid="37" ordinal="3" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="10" uspid="38" ordinal="4" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="10" uspid="40" ordinal="5" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="10" uspid="41" ordinal="6" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="7" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="34" ec="1" el="41" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>MongoDB.Bson.BsonDocument Mass.Extensions.BsonDocumentExtension::Query(MongoDB.Bson.BsonDocument,System.String)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="50" ordinal="0" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="4" uspid="52" ordinal="1" sl="52" sc="1" el="52" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="4" uspid="53" ordinal="2" sl="53" sc="1" el="53" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="54" ordinal="3" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="56" ordinal="4" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="57" ordinal="5" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="58" ordinal="6" sl="58" sc="1" el="58" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="60" ordinal="7" sl="60" sc="1" el="60" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="8" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="50" ec="1" el="60" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>MongoDB.Bson.BsonDocument Mass.Extensions.BsonDocumentExtension::Path(MongoDB.Bson.BsonDocument,System.String)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="69" ordinal="0" sl="69" sc="1" el="69" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="71" ordinal="1" sl="71" sc="1" el="71" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="72" ordinal="2" sl="72" sc="1" el="72" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="73" ordinal="3" sl="73" sc="1" el="73" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="75" ordinal="4" sl="75" sc="1" el="75" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="76" ordinal="5" sl="76" sc="1" el="76" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="77" ordinal="6" sl="77" sc="1" el="77" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="79" ordinal="7" sl="79" sc="1" el="79" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="8" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="69" ec="1" el="79" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="6" nPathComplexity="6" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="13" visitedSequencePoints="13" numBranchPoints="6" visitedBranchPoints="6" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>MongoDB.Bson.BsonDocument Mass.Extensions.BsonDocumentExtension::Fuzzy(MongoDB.Bson.BsonDocument,System.Int32)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="89" ordinal="0" sl="89" sc="1" el="89" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="6" uspid="91" ordinal="1" sl="91" sc="1" el="91" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="6" uspid="92" ordinal="2" sl="92" sc="1" el="92" ec="2" bec="6" bev="6" fileid="4" />
+                <SequencePoint vc="3" uspid="93" ordinal="3" sl="93" sc="1" el="93" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="95" ordinal="4" sl="95" sc="1" el="95" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="97" ordinal="5" sl="97" sc="1" el="97" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="99" ordinal="6" sl="99" sc="1" el="99" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="100" ordinal="7" sl="100" sc="1" el="100" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="101" ordinal="8" sl="101" sc="1" el="101" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="103" ordinal="9" sl="103" sc="1" el="103" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="104" ordinal="10" sl="104" sc="1" el="104" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="105" ordinal="11" sl="105" sc="1" el="105" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="107" ordinal="12" sl="107" sc="1" el="107" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="5" uspid="92" ordinal="0" path="0" offset="4" offsetend="6" sl="92" fileid="4" />
+                <BranchPoint vc="3" uspid="92" ordinal="1" path="1" offset="4" offsetend="12" sl="92" fileid="4" />
+                <BranchPoint vc="3" uspid="92" ordinal="3" path="1" offset="8" offsetend="12" sl="92" fileid="4" />
+                <BranchPoint vc="3" uspid="92" ordinal="2" path="0" offset="8" offsetend="16" sl="92" fileid="4" />
+                <BranchPoint vc="3" uspid="92" ordinal="4" path="0" offset="21" offsetend="23" sl="92" fileid="4" />
+                <BranchPoint vc="3" uspid="92" ordinal="5" path="1" offset="21" offsetend="39" sl="92" fileid="4" />
+              </BranchPoints>
+              <MethodPoint vc="13" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="89" ec="1" el="107" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="4" nPathComplexity="4" sequenceCoverage="100" branchCoverage="75" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="4" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="75" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>MongoDB.Bson.BsonDocument Mass.Extensions.BsonDocumentExtension::Highlight(MongoDB.Bson.BsonDocument,System.String[])</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="116" ordinal="0" sl="116" sc="1" el="116" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="118" ordinal="1" sl="118" sc="1" el="118" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="120" ordinal="2" sl="120" sc="1" el="120" ec="2" bec="4" bev="3" fileid="4" />
+                <SequencePoint vc="2" uspid="121" ordinal="3" sl="121" sc="1" el="121" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="123" ordinal="4" sl="123" sc="1" el="123" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="124" ordinal="5" sl="124" sc="1" el="124" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="126" ordinal="6" sl="126" sc="1" el="126" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="127" ordinal="7" sl="127" sc="1" el="127" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="128" ordinal="8" sl="128" sc="1" el="128" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="130" ordinal="9" sl="130" sc="1" el="130" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="2" uspid="120" ordinal="0" path="0" offset="3" offsetend="5" sl="120" fileid="4" />
+                <BranchPoint vc="0" uspid="120" ordinal="1" path="1" offset="3" offsetend="34" sl="120" fileid="4" />
+                <BranchPoint vc="1" uspid="120" ordinal="2" path="0" offset="37" offsetend="39" sl="120" fileid="4" />
+                <BranchPoint vc="1" uspid="120" ordinal="3" path="1" offset="37" offsetend="108" sl="120" fileid="4" />
+              </BranchPoints>
+              <MethodPoint vc="10" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="116" ec="1" el="130" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="55.55" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="9" visitedSequencePoints="5" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="55.55" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>MongoDB.Bson.BsonDocument Mass.Extensions.BsonDocumentExtension::Meta(MongoDB.Bson.BsonDocument,System.String,System.String)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="140" ordinal="0" sl="140" sc="1" el="140" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="142" ordinal="1" sl="142" sc="1" el="142" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="143" ordinal="2" sl="143" sc="1" el="143" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="145" ordinal="3" sl="145" sc="1" el="145" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="147" ordinal="4" sl="147" sc="1" el="147" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="148" ordinal="5" sl="148" sc="1" el="148" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="149" ordinal="6" sl="149" sc="1" el="149" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="150" ordinal="7" sl="150" sc="1" el="150" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="152" ordinal="8" sl="152" sc="1" el="152" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="5" uspid="0" p8:type="SequencePoint" ordinal="6" offset="6" sc="0" sl="140" ec="1" el="152" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>
