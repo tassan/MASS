@@ -16,6 +16,7 @@
         <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
         <Title>Mass</Title>
         <RepositoryType>git</RepositoryType>
+        <Version>1.0.1-preview</Version>
     </PropertyGroup>
 
     <ItemGroup>
