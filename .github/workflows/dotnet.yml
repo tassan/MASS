@@ -28,7 +28,3 @@ jobs:
       run: dotnet test --no-build --configuration Release --verbosity normal /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
     - name: Codecov
       uses: codecov/codecov-action@v3.1.4
-    - name: Prep Packages
-      run: dotnet nuget add source --username tassan --password ${{ secrets.PAT }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/tassan/index.json"
-    - name: Publish to GitHub packages 
-      run: dotnet nuget push src/Mass/bin/Release/*.nupkg --api-key ${{ secrets.PAT }}  --source "github"
